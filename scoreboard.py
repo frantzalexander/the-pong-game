@@ -11,7 +11,8 @@ class Scoreboard(Turtle):
         self.l_score = 0
         self.r_score = 0
         self.update_scoreboard()
-        
+    
+    #Defining the text of the scoreboard and positioning    
     def update_scoreboard(self):
         self.clear()
         self.goto(-100, 200)
@@ -25,12 +26,14 @@ class Scoreboard(Turtle):
             self.r_score, 
             align = "center",
             font = ("Courier", 80, "normal")
-        )    
-    
+        ) 
+           
+    #Updates the scoreboard text when the left player scores a point
     def l_point(self):
         self.l_score += 1
         self.update_scoreboard()
-        
+    
+    #Updates the scoreboard text when the right player scores a point    
     def r_point(self):
         self.r_score += 1
         self.update_scoreboard()
