@@ -1,5 +1,10 @@
 # the-pong-game
-The game of Pong
+## Project Overview
+This project is to create the classic game of Pong. 
+
+This is a two player game where each player controls a paddle. 
+
+The goal is to bounce the ball and force the opposing player to miss. 
 
 ## Objectives
 - Create the screen.
@@ -13,6 +18,9 @@ The game of Pong
 - Create the scoreboard.
 
 ## Results
+The speed of the ball increases each time it bounces off a paddle.
+
+As the game progresses, it becomes more difficult to bounce the ball back.
 The graphical user interface:
 ![2023-08-04](https://github.com/frantzalexander/the-pong-game/assets/128331579/cb4551f0-c0fa-4ddf-86ae-917691d705d4)
 
